@@ -2,6 +2,13 @@
 
 This is an example implementation of a call scheduler (think [click-to-call](https://github.com/TwilioDevEd/clicktocall-node) at a set date and time) using [Twilio Programmable Voice](https://www.twilio.com/docs/voice), [Twilio Functions](https://www.twilio.com/docs/runtime/functions) and [AWS EventBridge](https://aws.amazon.com/eventbridge/).
 
+## Contents
+
+* [Setup](#setup)
+* [Architecture](#architecture)
+* [Demo](#demo)
+* [Maintainer](#maintainer)
+
 ## Setup
 
 The easiest way to deploy this application is by using the [Twilio Serverless Toolkit](https://www.twilio.com/docs/labs/serverless-toolkit).
