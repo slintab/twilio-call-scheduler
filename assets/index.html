@@ -100,10 +100,7 @@
         const phoneNumber = document.getElementById("phoneNumber");
         const selectedDate = document.getElementById("selectedDate");
         
-        const time = new Date(selectedDate.value)
-        const offset = -new Date().getTimezoneOffset()/60;
-        time.setTime(time.getTime() - (offset*60*60*1000));
-        
+        const time = new Date(selectedDate.value)   
 
         try {
             const response = await fetch(form.getAttribute("action"), {
